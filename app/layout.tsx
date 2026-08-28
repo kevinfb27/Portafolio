@@ -14,65 +14,10 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portafolio-kevin-florez.vercel.app"),
-
-  title: {
-    default: "Kevin Flórez | Software Developer",
-    template: "%s | Kevin Flórez",
-  },
+  title: "Kevin Flórez | Software Developer",
 
   description:
-    "Portfolio of Kevin Flórez, Software Developer and Systems Engineering student experienced in Java, Spring Boot, JavaScript, TypeScript, React, Next.js, PostgreSQL and modern web development.",
-
-  keywords: [
-    "Kevin Flórez",
-    "Kevin Ivan Florez",
-    "Software Developer",
-    "Backend Developer",
-    "Full Stack Developer",
-    "Java Developer",
-    "Java",
-    "Spring Boot",
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Next.js",
-    "PostgreSQL",
-    "Web Developer",
-    "Systems Engineering",
-    "Colombia",
-  ],
-
-  authors: [
-    {
-      name: "Kevin Flórez",
-      url: "https://github.com/kevinfb27",
-    },
-  ],
-
-  creator: "Kevin Flórez",
-
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://portafolio-kevin-florez.vercel.app",
-    siteName: "Kevin Flórez Portfolio",
-    title: "Kevin Flórez | Software Developer",
-    description:
-      "Software Developer building modern web applications with Java, Spring Boot, JavaScript, TypeScript, React and Next.js.",
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Kevin Flórez | Software Developer",
-    description:
-      "Software Developer building modern web applications with Java, Spring Boot, JavaScript, TypeScript, React and Next.js.",
-  },
-
-  robots: {
-    index: true,
-    follow: true,
-  },
+    "Portfolio of Kevin Flórez, Software Developer and Systems Engineering student with experience in Java, Spring Boot, JavaScript, TypeScript, React, Next.js, PostgreSQL, and modern web development.",
 
   icons: {
     icon: [
@@ -95,8 +40,6 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: "#1a2332",
-  width: "device-width",
-  initialScale: 1,
 }
 
 export default function RootLayout({
