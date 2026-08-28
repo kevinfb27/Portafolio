@@ -10,28 +10,54 @@ export function About() {
 
         <div className="mt-8 space-y-4 leading-relaxed text-muted-foreground">
           <p>
-            I&apos;m a <span className="text-foreground">Systems Engineering student</span>{" "}
-            specialized in backend development, with strong foundations in software engineering,
-            data structures, and problem solving.
+            I&apos;m a{" "}
+            <span className="text-foreground">
+              Systems Engineering student and Software Developer
+            </span>{" "}
+            focused on building modern, scalable, and maintainable web
+            applications.
           </p>
+
           <p>
-            Experienced in designing and implementing{" "}
-            <span className="text-primary">RESTful applications</span> using Java, Spring, and
-            Spring Boot, following clean code principles and layered architecture.
+            My main backend experience is with{" "}
+            <span className="text-primary">
+              Java, Spring Boot, and RESTful APIs
+            </span>
+            , applying clean code principles, object-oriented programming, and
+            layered architecture.
           </p>
+
           <p>
-            Familiar with relational databases{" "}
-            <span className="text-foreground">(MySQL, SQL)</span> including schema design, CRUD
-            operations, and query optimization.
+            On the frontend, I work with{" "}
+            <span className="text-primary">
+              JavaScript, TypeScript, React, Next.js, and Tailwind CSS
+            </span>
+            , allowing me to build complete web experiences from backend logic
+            to responsive user interfaces.
           </p>
+
           <p>
-            Comfortable working with{" "}
-            <span className="text-primary">Git-based workflows</span>, collaborative
-            development, and agile practices.
+            I also have experience working with relational databases such as{" "}
+            <span className="text-foreground">PostgreSQL and MySQL</span>,
+            including database design, CRUD operations, queries, and application
+            integration.
           </p>
+
           <p>
-            <span className="text-foreground">Bilingual (Spanish & English)</span> with strong
-            communication and teamwork skills.
+            I&apos;m comfortable working with{" "}
+            <span className="text-primary">Git and GitHub workflows</span>,
+            collaborative development, version control, and agile practices.
+          </p>
+
+          <p>
+            Beyond technical skills, I can communicate professionally in{" "}
+            <span className="text-foreground">Spanish and fluent English</span>,
+            and I also have an{" "}
+            <span className="text-foreground">
+              intermediate level of Portuguese
+            </span>
+            , which allows me to collaborate in multilingual and international
+            environments.
           </p>
         </div>
       </div>
